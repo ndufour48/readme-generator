@@ -1,14 +1,22 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "generates a md readme file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "ndufour48",
   "license": "ISC",
   "dependencies": {
     "inquirer": "8.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndufour48/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ndufour48/readme-generator/issues"
+  },
+  "homepage": "https://github.com/ndufour48/readme-generator#readme"
 }
