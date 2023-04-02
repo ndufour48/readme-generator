@@ -16,9 +16,7 @@ function renderLicenseBadge(license) {
 function renderLicenseSection(license, name) {
   const year = new Date().getFullYear();
   return(license === "Unlicense") ?
-    `Copyright (c) ${year} ${name}
-    
-    This is free and unencumbered software released into the public domain.
+    `This is free and unencumbered software released into the public domain.
     Anyone is free to copy, modify, publish, use, compile, sell, or
     distribute this software, either in source code form or as a compiled
     binary, for any purpose, commercial or non-commercial, and by any
@@ -40,11 +38,12 @@ function renderLicenseSection(license, name) {
     ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
     OTHER DEALINGS IN THE SOFTWARE.
     
-    For more information, please refer to <https://unlicense.org>` :
+    For more information, please refer to <https://unlicense.org>
+    
+    Copyright (c) ${year} ${name}` :
 
     (license === "MIT") ?
-      `Copyright (c) ${year} ${name}
-      Permission is hereby granted, free of charge, to any person obtaining
+      `Permission is hereby granted, free of charge, to any person obtaining
       a copy of this software and associated documentation files (the
       "Software"), to deal in the Software without restriction, including
       without limitation the rights to use, copy, modify, merge, publish,
@@ -61,11 +60,11 @@ function renderLicenseSection(license, name) {
       NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
       LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
       OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-      WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.` :
-    (license === "Apache") ? 
-      `Copyright ${year} ${name}
-      
-      Licensed under the Apache License, Version 2.0 (the "License");
+      WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+      Copyright (c) ${year} ${name}` :
+      (license === "Apache") ? 
+      `Licensed under the Apache License, Version 2.0 (the "License");
       you may not use this file except in compliance with the License.
       You may obtain a copy of the License at
   
@@ -75,7 +74,8 @@ function renderLicenseSection(license, name) {
       distributed under the License is distributed on an "AS IS" BASIS,
       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
       See the License for the specific language governing permissions and
-      limitations under the License.` : 
+      limitations under the License.
+      Copyright ${year} ${name}` :
     (license === "None") ?
         `` : "";
 }
