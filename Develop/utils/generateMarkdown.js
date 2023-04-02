@@ -16,7 +16,7 @@ function renderLicenseBadge(license) {
 function renderLicenseSection(license, name) {
   const year = new Date().getFullYear();
   return(license === "Unlicense") ?
-    `   This is free and unencumbered software released into the public domain.
+    `  This is free and unencumbered software released into the public domain.
     Anyone is free to copy, modify, publish, use, compile, sell, or
     distribute this software, either in source code form or as a compiled
     binary, for any purpose, commercial or non-commercial, and by any
@@ -43,7 +43,7 @@ function renderLicenseSection(license, name) {
     Copyright (c) ${year} ${name}` :
 
     (license === "MIT") ?
-      `   Permission is hereby granted, free of charge, to any person obtaining
+      `  Permission is hereby granted, free of charge, to any person obtaining
       a copy of this software and associated documentation files (the
       "Software"), to deal in the Software without restriction, including
       without limitation the rights to use, copy, modify, merge, publish,
@@ -64,7 +64,7 @@ function renderLicenseSection(license, name) {
 
       Copyright (c) ${year} ${name}` :
       (license === "Apache") ? 
-      `   Licensed under the Apache License, Version 2.0 (the "License");
+      `  Licensed under the Apache License, Version 2.0 (the "License");
       you may not use this file except in compliance with the License.
       You may obtain a copy of the License at
   
@@ -96,32 +96,33 @@ function generateMarkdown(data) {
   5. [License](#license)
   6. [Questions](#questions)
   
-  ## Installation
+  # Installation
   
   ${data.installation}
   
-  ## Usage
+  # Usage
   
   ${data.usage}
   
-  ## Tests
+  # Tests
   
   ${data.tests}
   
-  ## Contribution
+  # Contribution
   
   ${data.contribution}
 
-  ## License
+  # Questions
+  
+  Issues or questions? Email the developer(s) [here](mailto:${data.email}).
+  Created by ${data.name}. See more of thier work on [Github](https://github.com/${data.githubUsername}).
+
+  # License
 
   ${renderLicenseBadge(data.license)}
 
   ${renderLicenseSection(data.license, data.name)}
-  
-  ## Questions
-  
-  Issues or questions? Email the developer(s) [here](mailto:${data.email}).
-  Created by ${data.name}. See more work at their [Github profile](https://github.com/${data.githubUsername}).`;
+  `;
 }
 
 module.exports = generateMarkdown;
