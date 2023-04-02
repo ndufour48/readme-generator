@@ -1,7 +1,7 @@
-# TITLE OF PROJECT
+# DEMO
 
   ## Description
-  DESCRIBTION OF PROJECT
+  DEMO
   
   ## Table of contents
   
@@ -9,29 +9,29 @@
   2. [Usage](#usage)
   3. [Tests](#tests)
   4. [Contribution](#contribution)
-  5. [License](#license)
-  6. [Questions](#questions)
+  5. [Questions](#questions)
+  6. [License](#license)
   
   # Installation
   
-  INSTALLATION OF PROJECT
+  DEMO
   
   # Usage
   
-  PROJECT USAGE
+  DEMO
   
   # Tests
   
-  PROJECT TEST
+  DEMO
   
   # Contribution
   
-  CONTRIBUTIONS
+  DEMO
 
   # Questions
   
-  Issues or questions? Email the developer(s) [here](mailto:YOUR@EMAIL.HERE).
-  Created by YOUR NAME. See more of thier work on [Github](https://github.com/GITHUB-USERNAME-HERE).
+  Issues or questions? Email the developer(s) [here](mailto:DEMO).
+  Created by DEMO. See more of thier work on [Github](https://github.com/DEMO).
 
   # License
 
@@ -56,5 +56,5 @@
       OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
       WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-      Copyright (c) 2023 YOUR NAME
+      Copyright (c) 2023 DEMO
   
