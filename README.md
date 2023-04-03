@@ -8,7 +8,7 @@
   
   1. [Installation](#installation)
   2. [Usage](#usage)
-  3. [Tests](#tests)
+  3. [Demo](#demo)
   4. [Questions](#questions)
   
   # Installation
@@ -23,9 +23,9 @@
   
   https://www.npmjs.com/package/inquirer/v/8.2.4
   
-  # Tests
-  
-  PROJECT TEST
+  # Demo
+
+  [![Link to demo on google drive](https://cdn-icons-png.flaticon.com/512/5359/5359890.png)]()
 
   # Questions
   
